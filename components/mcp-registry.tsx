@@ -36,9 +36,7 @@ const ServerCard = (server: MCPServer) => (
             />
           ))}
         </div>
-        <time className="text-sm text-blue-200/80">
-          {new Date(server.createdAt).toLocaleDateString()}
-        </time>
+       
       </div>
     </CardContent>
   </Card>
