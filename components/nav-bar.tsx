@@ -9,13 +9,13 @@ export function NavBar() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2 text-white font-semibold hover:text-blue-200 transition-colors">
             <Image
-              src="/mcp.png"
-              alt="MCP Logo"
+              src="/mcp.svg"
+              alt="MCP.run Logo"
               width={24}
               height={24}
               className="w-6 h-6"
             />
-            MCP.new
+            MCP.run
           </Link>
           <div className="flex gap-6">
             <Link href="/search" className="text-white/80 hover:text-white transition-colors">

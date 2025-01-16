@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://docs.mcp.run/img/mcp.run-logo.svg" />
+    <meta name="viewport" content="width=1024">
+    <title>mcp.run - the App Store for MCP Servlets: portable & secure code for AI Apps and Agents.</title>
+    <script type="module" crossorigin src="/assets/index-Coqw-U9U.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-EgSb69Z7.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+    <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
+  </body>
+</html>

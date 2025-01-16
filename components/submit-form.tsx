@@ -1,21 +1,19 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Github } from 'lucide-react'
 import { BorderBeam } from "@/components/ui/border-beam"
-
 
 export function BorderBeamButton() {
   return (
     <Button 
       variant="ghost" 
       className="relative w-full h-16 text-xl font-bold tracking-tight bg-gradient-to-r from-blue-500/10 to-purple-500/10 hover:from-blue-500/20 hover:to-purple-500/20 text-blue-100 transition-all duration-300 overflow-hidden group"
+      onClick={() => window.location.href = 'https://www.mcp.run/settings/tasks'}
     >
       <span className="relative z-10 flex items-center justify-center gap-2">
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-200 to-purple-200">
-          Build MCP Server
+          Build!
         </span>
-        <span className="text-sm font-normal text-blue-300">(Coming Soon)</span>
       </span>
       
       <BorderBeam 
@@ -32,20 +30,24 @@ export function BorderBeamButton() {
   );
 }
 
-
 export function SubmitForm() {
   return (
-    <>
-      <BorderBeamButton />
-      
-      <Button 
-        onClick={() => window.open('https://github.com/DONEWio/mcp.new/issues/new', '_blank')}
-        className="w-full bg-blue-500 hover:bg-blue-600 text-white flex items-center justify-center gap-2"
-      >
-        <Github className="w-5 h-5" />
-        Submit via GitHub Issues
-      </Button>
-    </>
+    <div className="space-y-4">
+      <BorderBeamButton  />
+      <div className="text-sm text-blue-300 space-y-2">
+        <p>Build your own MCP server using our task system. Get started with:</p>
+        <div className="flex flex-col gap-2">
+          <a href="https://docs.mcp.run/tasks/using-tasks" className="text-blue-400 hover:text-blue-300 transition-colors flex items-center gap-2">
+            <span className="text-blue-500">→</span>
+            <span>Tasks Documentation</span>
+          </a>
+          <a href="https://docs.mcp.run/" className="text-blue-400 hover:text-blue-300 transition-colors flex items-center gap-2">
+            <span className="text-blue-500">→</span>
+            <span>Getting Started Guide</span>
+          </a>
+        </div>
+      </div>
+    </div>
   )
 }
 
