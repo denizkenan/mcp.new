@@ -18,7 +18,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "MCP.run - Model Context Protocol Server Registry",
-  description: "cp.run is a service built on XTP by the team at Dylibso. Our registry enables seamless integration between AI models and applications through WebAssembly-powered plugins.",
+  description: "mcp.run is a service built on XTP by the team at Dylibso. Our registry enables seamless integration between AI models and applications through WebAssembly-powered plugins.",
   keywords: ["MCP", "Model Context Protocol", "LLM", "AI", "Machine Learning", "API", "Integration"],
   icons: {
     icon: '/favicon.ico',
